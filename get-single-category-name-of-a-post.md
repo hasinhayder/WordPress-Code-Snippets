@@ -1,4 +1,4 @@
-# Get single category name of a post
+# Get a single category name of a post
 
 A post may have multiple categories, and to pick one needs more than one line of code. Besides, there are tricky decisions you need to make how you are going to pick that particular one, a simple array_shift or a random one. Let's get things done!
 
