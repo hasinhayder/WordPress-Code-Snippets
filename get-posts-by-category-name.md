@@ -1,6 +1,6 @@
 # Find posts by category name
 
-If you need to find posts by category name, you can do that quickly using the following snippet. 
+If you need to find posts by category name, you can do that quickly using the following piece of code. 
 
 ```php
 $post_query = new WP_Query( array(
