@@ -30,4 +30,13 @@ $post_query = new WP_Query( array(
 ) );
 ```
 
+If you need to find posts by multiple category names, just pass them as csv (comma separated value) and you're done!
+
+```php
+$post_query = new WP_Query( array(
+    'posts_per_page' => -1, //return all posts
+    'category_name'  => 'cat1, cat2, cat3' // and so on
+) );
+```
+
 :)
